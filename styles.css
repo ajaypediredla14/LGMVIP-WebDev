@@ -1,0 +1,240 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.mont{
+  font-family: monteserrat;
+}
+
+html {
+	overflow-y: scroll; 
+}
+
+body {
+  background-image: url("login.jpg");
+   background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background: cover;
+  font-family: 'times', sans-serif;
+}
+
+.container{
+  background-image: url("pink.jpg");
+   background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background: cover;
+  padding-top: 1px;
+  align-content: center;
+  margin-top: 40px;
+  border-radius: 20px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.heading{
+  margin-top:  50px;
+  color: crimson;
+  background-color: #000;
+  padding:  10px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+a {
+  text-decoration:none;
+  color:#1ab188;
+  transition:.5s ease;
+}
+
+a:hover{
+  color: #1ab188;
+}
+
+.tab-content{
+  padding-top: 30px ;
+}
+
+
+.form {
+  background: #000;
+  padding: 30px;
+  z-index: 99;
+  max-width:600px;
+  margin: 5px auto;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow:0 4px 10px 4px rgba($form-bg,.3);
+}
+
+.tab-group {
+  list-style:none;
+  margin:0 0 40px 0;
+}
+
+.tab-group :after{
+    content: "";
+    /*display: table;*/
+    clear: both;
+}
+
+.tab-group .active a{
+   background:#F08080;
+  color:#ffffff;
+}
+
+.tab-group li a {
+    display:block;
+    text-decoration:none;
+    padding:10px;
+    background:#FFDAB9;
+    color: #00008B;
+    border-radius: 20px;
+    font-size:20px;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease;
+  }
+
+.tab-group li a:hover{
+  color:#ffffff;
+}
+
+.tab-content > div:last-child {
+  display:none;
+}
+
+
+h3 {
+  text-align:center;
+  color :  crimson;
+  font-weight:300;
+  margin:0 0 20px;
+}
+
+
+label {
+  color: white !important;
+}
+
+label.req {
+    margin:2px;
+    color: white !important;
+}
+
+label.active {
+  transform:translateY(40px);
+  left:2px;
+  font-size:16px;
+}
+
+label.active.req{
+  opacity:0;
+}
+
+label.highlight {
+	color:#ffffff;
+}
+
+input, textarea {
+  font-size: 16px;
+  display:block;
+  width:100%;
+  height:100%;
+  padding: 10px 10px;
+  background:none;
+  background-image:none;
+  border:1px solid #a0b3b0;
+  color: white;
+  border-radius:  5px;
+  transition:border-color .25s ease, box-shadow .25s ease;
+}
+
+input, textarea:focus{
+  outline:0;
+  border-color: crimson;
+}
+
+
+textarea {
+  border:2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.field-wrap {
+  position:relative;
+  margin-bottom:10px;
+}
+
+.top-row:after{
+  content: "";
+    display: table;
+    clear: both;
+}
+
+.top-row> div{
+  float:left;
+    width:48%;
+    margin-right:4%;
+}
+
+.top-row:last-child{
+  margin: 0;
+}
+
+.button {
+  border:0;
+  outline:none;
+  border-radius:0;
+  padding:10px 0;
+  font-size: 1.3rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  background:#F08080;
+  color:#ffffff;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+}
+
+.button:hover{
+  background-image: url("blue.jpg");
+   background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background: cover;
+}
+
+.button:focus{
+  background-image: url("blue.jpg");
+   background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background: cover;
+}
+
+
+.button-block {
+  display:block;
+  width:100%;
+}
+
+.forgot {
+  margin-top:10px;
+  text-align:right;
+  color: white;
+}
+
+.forgot a{
+  color: white;
+}

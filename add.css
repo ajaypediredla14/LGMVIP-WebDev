@@ -1,0 +1,90 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.mont{
+  font-family: monteserrat;
+}
+
+html {
+  overflow-y: scroll; 
+}
+
+body {
+  /*background-color: #777799 ;*/
+  background-image: url("https://images.unsplash.com/photo-1610018556010-6a11691bc905?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+   background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background: cover;
+  font-family: 'times', sans-serif;
+}
+
+.navbar-brand{
+    color: crimson !important;
+    padding-left: 20px !important;
+}
+
+.navbar-brand img{
+  margin-left: 20px !important;
+}
+
+.navbar-brand span{
+  background-color: #000 !important;
+  padding:  10px !important;
+  border-radius: 10px !important;
+}
+
+.navbar-nav{
+  padding-left: 15% !important;
+}
+
+
+.nav-link:hover{
+  color: crimson !important;
+}
+
+
+.nav-item{
+     padding-left: 20px !important; 
+}
+
+.form-inline{
+  padding-right: 20px !important;
+}
+
+.container{
+  margin-top: 10px;
+  background-color:  black;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.pl-25{
+  padding-left: 40px !important;
+  color: #FFDAB9 !important;
+}
+
+.pl-15{
+  margin-left: 10px !important;
+}
+
+.heading{
+  color: white;
+  padding: 10px;
+}
+
+.part_1 label{
+  color: #FFDAB9;
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.part_1 input {
+  padding-left: 10px;
+  width: 300px;
+}
