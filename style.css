@@ -1,0 +1,188 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.mont{
+	font-family: monteserrat;
+}
+
+.br{
+	border-radius: 20px;
+}
+
+#title{
+	color: #66CDAA;
+	text-align: center;
+	border-radius: 10px;
+	background-color: black;
+	width: 12em;
+}
+
+#title:hover
+{
+	background-color: #FFC0CB;
+	border-radius: 10px;
+	transition: .5s;
+	box-shadow: 0 20px 20px rgba(0,0,0,.5);
+	color: black;
+}
+
+.navbar-nav li a{
+	color: white;
+}
+
+
+.navbar-nav li a:hover 
+{
+	color: black;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #F08080;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar-expand-lg
+ {
+ 	/*background-image: url(navbg2.jpg);*/
+ 	background-color: #000000;
+ }
+
+.spectrum-background {
+    background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #423246 100%),
+  linear-gradient(-45deg, #8f5046 0%,  #A14436 0.3%, #4C2556 112%,  transparent 11% ),
+  linear-gradient(-90deg, #A14436 100%, #A14436 65%, transparent 20% )
+  ;
+}
+
+.intro h1{
+	background-color: black;
+	color: #FAD0C9FF;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+
+
+.intro p{
+	padding: 20px;
+	font-family:  times;
+	color: #FAD0C9FF;
+	background-color:#2D2926FF;
+	border: 1px solid white;
+}
+
+#videos h3{
+	font-weight: 550;
+}
+
+#videos span{
+	color: crimson;
+}
+
+#videos h6{
+	color: #141823;
+}
+
+#details
+{
+	
+    padding-top: 50px;
+    background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #423246 100%),
+  linear-gradient(-45deg, #8f5046 0%,  #A14436 0.3%, #4C2556 112%,  transparent 11% ),
+  linear-gradient(-90deg, #A14436 100%, #A14436 65%, transparent 20% )
+  ;
+	border-spacing: 20px;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	padding-bottom: 50px;
+	color: #555;
+	text-align: center;
+	font-size: 30px;
+}
+#details h3
+{
+	background-size: cover;
+	text-align: center;
+	size: 40px;
+	font-weight: 200;
+	font-style: "Courier New", Courier, monospace; 
+	color: #efefef;
+}
+
+#Contact h1
+{
+	text-align: center;
+	color:  #fff;
+	padding-bottom: 10px;
+}
+#Contact h1::after
+{
+	content: '';
+	background:  crimson;
+	display: block;
+	height: 2px;
+	border-radius: 100%;
+	width: 175px;
+	margin: 15px auto 5px;
+}
+#Contact
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://wallpaperplay.com/walls/full/5/e/2/45632.jpg);
+	background-color: #efefef;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #777;
+}
+#Contact form
+{
+	padding: 10px;
+}
+#Contact form-group
+{
+	border-radius: 0;
+	border:none;
+}
+::placeholder
+{
+	color: #FF00FF;
+}
+
+.btn-btn-primary
+{
+	border-radius: 10px;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+	color: #fff;
+	background-color: crimson;
+
+}
+
+.follow
+{
+	padding: 7px;
+	background:#fff;
+	margin:10px;
+	color: #000;
+	border-radius: 10px;
+}
+
+.follow a{
+	color: #D02090 ;
+	font-size: 15px;
+	font-weight: 500px;
+}
+
+.contact-info .fa
+{
+	margin: 10px;
+	color: #D02090 ;
+	font-weight: bold;
+}
+
